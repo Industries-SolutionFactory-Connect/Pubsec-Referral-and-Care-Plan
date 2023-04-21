@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.74.0'
+project:
+    name: Pubsec-Referral-and-Care-Plan
+    package:
+        name: Pubsec-Referral-and-Care-Plan
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+        prefix_feature: 'feature/'
+        prefix_beta: 'beta/'
+        prefix_release: 'release/'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Pubsec-Referral-and-Care-Plan/tests
+            options:
+                outputdir: robot/Pubsec-Referral-and-Care-Plan/results
+
+    robot_testdoc:
+        options:
+            path: robot/Pubsec-Referral-and-Care-Plan/tests
+            output: robot/Pubsec-Referral-and-Care-Plan/doc/Pubsec-Referral-and-Care-Plan_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

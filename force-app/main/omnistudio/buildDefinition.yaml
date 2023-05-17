@@ -1,0 +1,6 @@
+projectPath: force-app/main/omnistudio
+queries:
+  - FlexCard
+  - IntegrationProcedure
+  - DataRaptor
+  - OmniScript

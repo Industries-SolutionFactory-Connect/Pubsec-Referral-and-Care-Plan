@@ -1,0 +1,45 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "id",
+        "GlobalKey": "PSSDRFetchInteractionSummaryRecord5384727548277819",
+        "InputFieldName": "Id",
+        "InputObjectName": "InteractionSummary",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRFetchInteractionSummaryRecord",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRFetchInteractionSummaryRecord",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRFetchInteractionSummaryRecord",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "record",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRFetchInteractionSummaryRecord20594953655537362",
+        "InputFieldName": "record:MeetingNotes",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRFetchInteractionSummaryRecord",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRFetchInteractionSummaryRecord",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRFetchInteractionSummaryRecord",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ReferralIntakeDetails:AdditionalNotes:Comments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

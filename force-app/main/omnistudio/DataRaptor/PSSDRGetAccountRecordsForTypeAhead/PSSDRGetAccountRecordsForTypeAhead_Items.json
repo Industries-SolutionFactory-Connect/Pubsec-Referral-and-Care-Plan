@@ -1,0 +1,64 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "<>",
+        "FilterValue": "''",
+        "GlobalKey": "PSSDRGetAccountRecordsForTypeAhead9233086218364375",
+        "InputFieldName": "Id",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRGetAccountRecordsForTypeAhead",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRGetAccountRecordsForTypeAhead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRGetAccountRecordsForTypeAhead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "accounts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRGetAccountRecordsForTypeAhead12712071230913957",
+        "InputFieldName": "accounts:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRGetAccountRecordsForTypeAhead",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRGetAccountRecordsForTypeAhead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRGetAccountRecordsForTypeAhead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "accounts:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRGetAccountRecordsForTypeAhead38516970644754656",
+        "InputFieldName": "accounts:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRGetAccountRecordsForTypeAhead",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRGetAccountRecordsForTypeAhead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRGetAccountRecordsForTypeAhead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "accounts:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

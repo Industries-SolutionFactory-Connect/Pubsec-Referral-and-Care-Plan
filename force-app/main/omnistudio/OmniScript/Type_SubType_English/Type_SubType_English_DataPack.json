@@ -1,0 +1,25 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "HH",
+    "OmniProcessElement": [
+        "Type_SubType_English_Element_Step1.json",
+        "Type_SubType_English_Element_Sample_Assessment_Question.json",
+        "Type_SubType_English_Element_Sample_Assessment_Question_1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Type_SubType_English_PropertySetConfig.json",
+    "SubType": "SubType",
+    "Type": "Type",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Type/SubType/English",
+    "WebComponentKey": "60ee35d0-4413-cfe8-5afb-d9b53d9ec1d1"
+}

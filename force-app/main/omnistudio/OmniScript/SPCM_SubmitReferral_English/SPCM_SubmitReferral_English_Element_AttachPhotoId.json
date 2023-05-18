@@ -1,0 +1,77 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "AttachPhotoId",
+    "OmniProcessId": {
+        "Name": "Submit a Referral",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "UploadDocuments",
+        "OmniProcessId": {
+            "Name": "Submit a Referral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/UploadDocuments",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "UploadDocuments",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Select Document Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Passport",
+                "value": "Passport"
+            },
+            {
+                "autoAdv": null,
+                "name": "IdentityProof",
+                "value": "Identity Proof"
+            },
+            {
+                "autoAdv": null,
+                "name": "AddressProof",
+                "value": "Address Proof"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/AttachPhotoId"
+}

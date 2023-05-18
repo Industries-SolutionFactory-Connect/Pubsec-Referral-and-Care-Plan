@@ -1,0 +1,8 @@
+{
+    "Records": {
+        "ClientEmail": "Text",
+        "ClientId": "Text",
+        "ClientName": "Text",
+        "ClientPhone": "Text"
+    }
+}

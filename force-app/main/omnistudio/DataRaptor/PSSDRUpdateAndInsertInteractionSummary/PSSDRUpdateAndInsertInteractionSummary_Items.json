@@ -1,0 +1,98 @@
+[
+    {
+        "GlobalKey": "PSSDRUpdateAndInsertInteractionSummary24878021228480018",
+        "InputFieldName": "InteractionSummaryRecordId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRUpdateAndInsertInteractionSummary",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "InteractionSummary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "PSSDRUpdateAndInsertInteractionSummary7985366177670825",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "PSSDRUpdateAndInsertInteractionSummary",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "InteractionSummary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRUpdateAndInsertInteractionSummary9096754321387486",
+        "InputFieldName": "ReferralIntakeDetails:AdditionalNotes:Comments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRUpdateAndInsertInteractionSummary",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MeetingNotes",
+        "OutputObjectName": "InteractionSummary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRUpdateAndInsertInteractionSummary47857519940151905",
+        "InputFieldName": "ReferralIntakeDetails:Title",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRUpdateAndInsertInteractionSummary",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "InteractionSummary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRUpdateAndInsertInteractionSummary038619577700871766",
+        "InputFieldName": "ReferralRecordId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRUpdateAndInsertInteractionSummary",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRUpdateAndInsertInteractionSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RelatedRecordId",
+        "OutputObjectName": "InteractionSummary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

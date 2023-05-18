@@ -1,0 +1,55 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "UploadAnyAdditionalDocuments",
+    "OmniProcessId": {
+        "Name": "Submit a Referral",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "AdditionalDocuments",
+        "OmniProcessId": {
+            "Name": "Submit a Referral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/AdditionalDocuments",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "AdditionalDocuments",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "conditionType": "Hide if False",
+        "contentParentId": [
+            "%ReferralRecordId%"
+        ],
+        "controlWidth": 6,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "extraPayload": {
+        },
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "label": "",
+        "remoteClass": "",
+        "remoteMethod": "",
+        "remoteOptions": {
+        },
+        "show": null,
+        "uploadContDoc": true
+    },
+    "Type": "File",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/UploadAnyAdditionalDocuments"
+}

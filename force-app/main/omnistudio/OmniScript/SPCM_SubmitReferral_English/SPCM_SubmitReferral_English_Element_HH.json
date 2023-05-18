@@ -1,0 +1,44 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "EmbeddedOmniScriptKey": "Type|SubType|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "HH",
+    "OmniProcessId": {
+        "Name": "Submit a Referral",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "SubType",
+        "Type": "Type",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "ShowSampleAssessment1"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "AdditionalDetails"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "IsSampleAssessment1Completed"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/HH"
+}

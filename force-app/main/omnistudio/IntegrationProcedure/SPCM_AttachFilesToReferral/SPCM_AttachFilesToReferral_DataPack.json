@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "SPCM_AttachFilesToReferral_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Attach Files to a Referral",
+    "OmniProcessElement": [
+        "SPCM_AttachFilesToReferral_Element_LinkIdentityPhoto.json",
+        "SPCM_AttachFilesToReferral_Element_AttachIdentityProof.json",
+        "SPCM_AttachFilesToReferral_Element_LinkAddressProof.json",
+        "SPCM_AttachFilesToReferral_Element_AttachAddressProof.json",
+        "SPCM_AttachFilesToReferral_Element_LinkAdditionalDocumentList.json",
+        "SPCM_AttachFilesToReferral_Element_LinkAdditionalDocument.json",
+        "SPCM_AttachFilesToReferral_Element_AttachAdditionalDocumentList.json",
+        "SPCM_AttachFilesToReferral_Element_LinkAdditionalDocuments.json",
+        "SPCM_AttachFilesToReferral_Element_AttachAdditionalDocuments.json"
+    ],
+    "OmniProcessKey": "SPCM_AttachFilesToReferral",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "SPCM_AttachFilesToReferral_PropertySetConfig.json",
+    "SubType": "AttachFilesToReferral",
+    "Type": "SPCM",
+    "UniqueName": "SPCM_AttachFilesToReferral_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SPCM/AttachFilesToReferral/Procedure",
+    "WebComponentKey": "150598af-7da6-67a4-8c59-47b658bbe554"
+}

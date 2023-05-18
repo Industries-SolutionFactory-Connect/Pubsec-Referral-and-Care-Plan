@@ -1,0 +1,52 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "GetCaseDetails",
+    "OmniProcessId": {
+        "Name": "Create New Case",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/CreateNewCase/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "bundle": "GetCaseID",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "DRId_Case",
+                "inputParam": "caseId"
+            }
+        ],
+        "enableActionMessage": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "ignoreCache": false,
+        "inProgressMessage": "In Progress",
+        "label": "GetCaseDetails",
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "responseJSONNode": "case",
+        "responseJSONPath": "case|1",
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "DataRaptor Turbo Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/CreateNewCase/English/GetCaseDetails"
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "GlobalKey": "CreateCaseParticipantCustom6514",
+        "InputFieldName": "DRId_Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CreateCaseParticipant",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseParticipant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseParticipant",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CaseId",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "CreateCaseParticipantCustom8750",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CreateCaseParticipant",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseParticipant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseParticipant",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CreateCaseParticipantCustom4089",
+        "InputFieldName": "Participants:addNewParticipants:selectAndBuildList:selectedData:selectedData:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CreateCaseParticipant",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseParticipant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseParticipant",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ParticipantId",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CreateCaseParticipantCustom3800",
+        "InputFieldName": "Participants:addNewParticipants:selectAndBuildList:selectedData:selectedData:role",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CreateCaseParticipant",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseParticipant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseParticipant",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Role",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CreateCaseParticipantCustom4410",
+        "InputFieldName": "Participants:addNewParticipants:selectAndBuildList:selectedData:selectedData:status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CreateCaseParticipant",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseParticipant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseParticipant",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

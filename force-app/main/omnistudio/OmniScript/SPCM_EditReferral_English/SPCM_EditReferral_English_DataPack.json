@@ -1,0 +1,26 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Edit a Referral",
+    "OmniProcessElement": [
+        "SPCM_EditReferral_English_Element_ExtractSavedApplication.json",
+        "SPCM_EditReferral_English_Element_NavigateToSavedApplicationURL.json",
+        "SPCM_EditReferral_English_Element_NavigateToNewReferralForm.json",
+        "SPCM_EditReferral_English_Element_Done.json",
+        "SPCM_EditReferral_English_Element_EditCompleteText.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "SPCM_EditReferral_English_PropertySetConfig.json",
+    "SubType": "EditReferral",
+    "Type": "SPCM",
+    "UniqueName": "SPCM_EditReferral_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SPCM/EditReferral/English",
+    "WebComponentKey": "64215e77-55c9-5029-baea-232e16165249"
+}

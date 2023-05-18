@@ -1,0 +1,32 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "AddComplaintParticipants",
+    "OmniProcessElement": [
+        "SPCM_AddComplaintParticipants_English_Element_setValues.json",
+        "SPCM_AddComplaintParticipants_English_Element_addParticipants.json",
+        "SPCM_AddComplaintParticipants_English_Element_textBlock.json",
+        "SPCM_AddComplaintParticipants_English_Element_firstName.json",
+        "SPCM_AddComplaintParticipants_English_Element_lastName.json",
+        "SPCM_AddComplaintParticipants_English_Element_city.json",
+        "SPCM_AddComplaintParticipants_English_Element_reset.json",
+        "SPCM_AddComplaintParticipants_English_Element_search.json",
+        "SPCM_AddComplaintParticipants_English_Element_createContactAndAccount.json",
+        "SPCM_AddComplaintParticipants_English_Element_selectAndBuildComplaintParticipants.json",
+        "SPCM_AddComplaintParticipants_English_Element_CreateParticipants.json",
+        "SPCM_AddComplaintParticipants_English_Element_NavigateAction.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "SPCM_AddComplaintParticipants_English_PropertySetConfig.json",
+    "SubType": "AddComplaintParticipants",
+    "Type": "SPCM",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SPCM/AddComplaintParticipants/English",
+    "WebComponentKey": "84818b72-7e6e-c89c-6542-b097a928dc82"
+}

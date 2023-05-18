@@ -1,0 +1,31 @@
+{
+    "Participants": {
+        "addNewParticipants": {
+            "cityFormula": "%",
+            "firstNameFormula": "%",
+            "lastNameFormula": null
+        },
+        "complaintParticipants": {
+            "SelectFromList": {
+                "selectedComplaintParticipants": {
+                    "selectedComplaintParticipants": [
+                        {
+                            "id": "1coRO0000000001YAA",
+                            "name": "CMP-0000000001",
+                            "pid": "sdfsdfsdfsdf",
+                            "role": "Victim",
+                            "status": "Inactive"
+                        },
+                        {
+                            "id": "1coRO000000000BYAQ",
+                            "name": "CMP-0000000003",
+                            "pid": "ddfvsfsfdsfsdf",
+                            "role": "Perpetrator",
+                            "status": "Active"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

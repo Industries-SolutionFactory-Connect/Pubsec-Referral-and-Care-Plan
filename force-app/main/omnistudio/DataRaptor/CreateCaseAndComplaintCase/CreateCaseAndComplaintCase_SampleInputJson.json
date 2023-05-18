@@ -1,0 +1,32 @@
+{
+    "Case Details": {
+        "NewCaseDetails": {
+            "Description": "soe description",
+            "Origin": "Phone",
+            "Priority": "High",
+            "Reason": "Installation",
+            "Status": "New",
+            "Subject": "Some isue"
+        },
+        "NewOrExistingCase": "StartANewCase"
+    },
+    "Participants": {
+        "addNewParticipants": {
+            "city": "city",
+            "firstName": "first",
+            "lastName": "last",
+            "selectAndBuildList": {
+                "selectedIdList": {
+                    "selectedIds": [
+                        {
+                            "id": "003RO000002IUe4YAG",
+                            "role": "Victim",
+                            "status": "Active"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PublicComplaintID": "0fhRO00000000EZYAY"
+}

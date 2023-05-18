@@ -41,7 +41,6 @@ Insert UnitOfMeasure:
   sf_object: UnitOfMeasure
   table: UnitOfMeasure
   fields:
-  - Description
   - Name
   - Type
   - UnitCode

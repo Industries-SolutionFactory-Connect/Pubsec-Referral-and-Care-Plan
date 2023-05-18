@@ -246,11 +246,10 @@ CREATE TABLE "GoalDefinition" (
 INSERT INTO "GoalDefinition" VALUES(1,'','','Sample Goal Definition','Active','Individual','');
 CREATE TABLE "UnitOfMeasure" (
 	id INTEGER NOT NULL, 
-	"Description" VARCHAR(255), 
 	"Name" VARCHAR(255), 
 	"Type" VARCHAR(255), 
 	"UnitCode" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "UnitOfMeasure" VALUES(1,'','UOM','Period','UOM');
+INSERT INTO "UnitOfMeasure" VALUES(1,'UOM','Period','UOM');
 COMMIT;

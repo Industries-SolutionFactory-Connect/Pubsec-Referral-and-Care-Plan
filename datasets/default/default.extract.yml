@@ -75,7 +75,6 @@ extract:
     - BenefitManagerId
   UnitOfMeasure:
     fields:
-    - Description
     - Name
     - Type
     - UnitCode

@@ -86,7 +86,7 @@ CREATE TABLE "AssessmentQuestion" (
 	"RelatedQuestionId" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "AssessmentQuestion" VALUES(1,'Demographic','Text','Sample_Assessment_Question_1','','Sample Assessment Question 1','');
+INSERT INTO "AssessmentQuestion" VALUES(1,'Demographic','Text','Sample_Assessment_Question_2','','Sample Assessment Question 1','');
 INSERT INTO "AssessmentQuestion" VALUES(2,'Financial','Currency','Sample_Assessment_Question','','Sample Assessment Question','');
 CREATE TABLE "Benefit" (
 	id INTEGER NOT NULL, 

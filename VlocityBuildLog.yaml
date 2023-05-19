@@ -6,19 +6,18 @@ Namespace: omnistudio
 Job: VDX
 Action: Deploy
 ProjectPath: force-app/main/omnistudio
-TotalTime: 15m 45s
+TotalTime: 25m 21s
 Count:
   Success: {}
   Error: {}
 Errors:
   - LWC Activation Error >> OmniScript/SPCM_AddComplaintParticipants_English - Activation took longer than 10 minutes - Aborting
-  - 'LWC Activation Error >> OmniScript/SPCM_CreateReferralCase_English - TimeoutError: Navigation timeout of 30000 ms exceeded'
-  - 'LWC Activation Error >> OmniScript/SPCM_EditReferral_English - TimeoutError: Navigation timeout of 30000 ms exceeded'
+  - LWC Activation Error >> OmniScript/SPCM_CreateReferralCase_English - Activation took longer than 10 minutes - Aborting
 Status:
   Success: {}
   Error: {}
 StatusCount:
   Remaining: 0
-  Success: 31
-  Error: 3
+  Success: 32
+  Error: 2
 id: !<tag:yaml.org,2002:js/undefined> ''

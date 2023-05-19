@@ -213,6 +213,19 @@ Insert Benefit:
     UnitId:
       table: UnitOfMeasure
       key_field: UnitId
+Insert CaseParticipant:
+  sf_object: CaseParticipant
+  table: CaseParticipant
+  fields:
+  - Role
+  - Status
+  lookups:
+    CaseId:
+      table: Case
+      key_field: CaseId
+    ParticipantId:
+      table: Account
+      key_field: ParticipantId
 Insert CarePlan:
   sf_object: CarePlan
   table: CarePlan
@@ -229,13 +242,7 @@ Insert CarePlan:
     CaseId:
       table: Case
       key_field: CaseId
-Insert CaseParticipant:
-  sf_object: CaseParticipant
-  table: CaseParticipant
-  fields:
-  - Role
-  - Status
-  lookups:
-    CaseId:
-      table: Case
-      key_field: CaseId
+    ParticipantId:
+      table: Account
+      key_field: ParticipantId
+

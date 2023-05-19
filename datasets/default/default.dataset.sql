@@ -108,13 +108,22 @@ CREATE TABLE "Benefit" (
 INSERT INTO "Benefit" VALUES(1,'True','','Sample Benefit','','','','','','','','1','','1');
 CREATE TABLE "BenefitType" (
 	id INTEGER NOT NULL, 
-	"Name" VARCHAR(255), 
+	"Name" VARCHAR(255), 	 
 	"Category" VARCHAR(255), 
 	"Description" VARCHAR(255), 
 	"ProcessType" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "BenefitType" VALUES(1,'Sample Benefit Type','','','PublicSector');
+INSERT INTO "BenefitType" VALUES(1,'Sample Benefit Type','None','','PublicSector');
+CREATE TABLE "CaseParticipant" (
+	id INTEGER NOT NULL, 
+	"Role" VARCHAR(255), 
+	"Status" VARCHAR(255), 
+	"CaseId" VARCHAR(255), 
+	"ParticipantId" VARCHAR(255), 
+	PRIMARY KEY (id)
+);
+INSERT INTO "CaseParticipant" VALUES(1,'Lawyer','Active','4','1');
 CREATE TABLE "CarePlan" (
 	id INTEGER NOT NULL, 
 	"Description" VARCHAR(255), 
@@ -124,9 +133,10 @@ CREATE TABLE "CarePlan" (
 	"Status" VARCHAR(255), 
 	"CarePlanTemplateId" VARCHAR(255), 
 	"CaseId" VARCHAR(255), 
+	"ParticipantId" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "CarePlan" VALUES(1,'','','Care Plan New','','Active','1','4');
+INSERT INTO "CarePlan" VALUES(1,'','','Care Plan New','','Active','1','4','1');
 CREATE TABLE "CarePlanTemplate" (
 	id INTEGER NOT NULL, 
 	"Description" VARCHAR(255), 
@@ -162,14 +172,6 @@ INSERT INTO "Case" VALUES(1,'','','False','','Phone','High','Instructions not cl
 INSERT INTO "Case" VALUES(2,'','','False','','Phone','Low','','On Hold','Sample Case 3: Cannot track our order.','','','','','','','','2','2','');
 INSERT INTO "Case" VALUES(3,'','','False','','Phone','High','','Escalated','Sample Case: Our Widgets have not been delivered.','','','','','','','','4','8','');
 INSERT INTO "Case" VALUES(4,'','','False','','Web','Medium','','New','Sample Case','','','','','Problem','','0129A000002yVYwQAM','','','');
-CREATE TABLE "CaseParticipant" (
-	id INTEGER NOT NULL, 
-	"Role" VARCHAR(255), 
-	"Status" VARCHAR(255), 
-	"CaseId" VARCHAR(255), 
-	PRIMARY KEY (id)
-);
-INSERT INTO "CaseParticipant" VALUES(1,'Lawyer','Active','4');
 CREATE TABLE "Case_rt_mapping" (
 	record_type_id VARCHAR(18) NOT NULL, 
 	developer_name VARCHAR(255), 

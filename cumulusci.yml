@@ -27,17 +27,25 @@ tasks:
         options:
             required_org_code_coverage_percent: 75
 flows:
-    config_dev:
+    run_pss_idoa:
         steps:
             1:
                 task: deploy
                 options:
                     path: force-app/main/default
                 ui_options:
-                    name: Deploy Metadata/Data for PSS Cloud configurations
+                    name: Deploy Metadata for PSS
             2:
+                task: load_dataset
+                options:
+                    mapping: datasets/default/default.mapping.yml
+                    sql_path: datasets/default/default.dataset.sql
+                ui_options:
+                    name: "Load sample data for PSS Object"
+            3:
                 task: vlocity_pack_deploy
                 options:
                     job_file: force-app/main/omnistudio/buildDefinition.yaml
                 ui_options:
                     name: Deploy OmniStudio components
+            

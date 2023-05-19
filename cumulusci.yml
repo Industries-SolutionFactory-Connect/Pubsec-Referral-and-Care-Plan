@@ -27,7 +27,7 @@ tasks:
         options:
             required_org_code_coverage_percent: 75
 flows:
-    run_pss_idoa:
+    config_dev:
         steps:
             1:
                 task: deploy
@@ -35,13 +35,6 @@ flows:
                     path: force-app/main/default
                 ui_options:
                     name: Deploy Metadata for PSS
-            2:
-                task: load_dataset
-                options:
-                    mapping: datasets/default/default.mapping.yml
-                    sql_path: datasets/default/default.dataset.sql
-                ui_options:
-                    name: "Load sample data for PSS Object"
             3:
                 task: vlocity_pack_deploy
                 options:
@@ -72,5 +65,5 @@ plans:
             message: "You need BenefitDisbursementPermissionSetLicense PSL to use this feature. Contact your Administrator."            
         steps:
             1:
-                flow: run_pss_idoa
+                flow: config_dev
             

@@ -32,7 +32,7 @@ flows:
             1:
                 task: deploy
                 options:
-                    path: force-custom/objects
+                    path: force-app/main/default/objects/Referral/webLinks
                     transforms:
                         - transform: find_replace
                           options:

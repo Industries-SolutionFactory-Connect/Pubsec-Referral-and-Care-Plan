@@ -29,6 +29,13 @@ Insert GoalDefinition:
   - Status
   - Type
   - UsageType
+Insert UnitOfMeasure:
+  sf_object: UnitOfMeasure
+  table: UnitOfMeasure
+  fields:
+  - Name
+  - Type
+  - UnitCode
 Insert BenefitType:
   sf_object: BenefitType
   table: BenefitType
@@ -37,85 +44,18 @@ Insert BenefitType:
   - Category
   - Description
   - ProcessType
-Insert UnitOfMeasure:
-  sf_object: UnitOfMeasure
-  table: UnitOfMeasure
-  fields:
-  - Name
-  - Type
-  - UnitCode
+  lookups:
+    UnitofMeasureId:
+      table: UnitOfMeasure
+      key_field: UnitofMeasureId
 Insert Account:
   sf_object: Account
   table: Account
   fields:
-  - AccountNumber
-  - AccountSource
-  - AnnualRevenue
-  - BillingCity
-  - BillingCountry
-  - BillingGeocodeAccuracy
-  - BillingLatitude
-  - BillingLongitude
-  - BillingPostalCode
-  - BillingState
-  - BillingStreet
-  - Description
-  - Fax
-  - FirstName
-  - Industry
-  - Jigsaw
-  - LastName
   - Name
-  - NumberOfEmployees
-  - Ownership
-  - PersonAssistantName
-  - PersonAssistantPhone
-  - PersonBirthdate
-  - PersonDepartment
-  - PersonDoNotCall
-  - PersonEmail
-  - PersonEmailBouncedDate
-  - PersonEmailBouncedReason
-  - PersonHasOptedOutOfEmail
-  - PersonHasOptedOutOfFax
-  - PersonHomePhone
-  - PersonLeadSource
-  - PersonMailingCity
-  - PersonMailingCountry
-  - PersonMailingGeocodeAccuracy
-  - PersonMailingLatitude
-  - PersonMailingLongitude
-  - PersonMailingPostalCode
-  - PersonMailingState
-  - PersonMailingStreet
-  - PersonMobilePhone
-  - PersonOtherCity
-  - PersonOtherCountry
-  - PersonOtherGeocodeAccuracy
-  - PersonOtherLatitude
-  - PersonOtherLongitude
-  - PersonOtherPhone
-  - PersonOtherPostalCode
-  - PersonOtherState
-  - PersonOtherStreet
-  - PersonTitle
+  - BillingState
   - Phone
-  - Rating
-  - Salutation
-  - ShippingCity
-  - ShippingCountry
-  - ShippingGeocodeAccuracy
-  - ShippingLatitude
-  - ShippingLongitude
-  - ShippingPostalCode
-  - ShippingState
-  - ShippingStreet
-  - Sic
-  - SicDesc
-  - Site
-  - TickerSymbol
   - Type
-  - Website
 Insert Contact:
   sf_object: Contact
   table: Contact
@@ -125,14 +65,11 @@ Insert Contact:
   - Birthdate
   - Department
   - Description
-  - DoNotCall
   - Email
   - EmailBouncedDate
   - EmailBouncedReason
   - Fax
   - FirstName
-  - HasOptedOutOfEmail
-  - HasOptedOutOfFax
   - HomePhone
   - Jigsaw
   - LastName
@@ -189,12 +126,17 @@ Insert Case:
       table: Case
       key_field: ParentId
       after: Insert Case
+Insert Program:
+  sf_object: Program
+  table: Program
+  fields:
+  - Name
+  - StartDate
 Insert Benefit:
   sf_object: Benefit
   table: Benefit
   fields:
   - IsActive
-  - BenefitFrequency
   - Name
   - BenefitStatus
   - Description
@@ -213,6 +155,9 @@ Insert Benefit:
     UnitId:
       table: UnitOfMeasure
       key_field: UnitId
+    ProgramId:
+      table: Program
+      key_field: ProgramId
 Insert CaseParticipant:
   sf_object: CaseParticipant
   table: CaseParticipant

@@ -27,24 +27,28 @@ tasks:
         options:
             required_org_code_coverage_percent: 75
 flows:
-    config_dev:
+    dependencies:
         steps:
-            1:
+            3:
                 task: deploy
                 options:
-                    path: force-app/main/default/objects/Referral/webLinks
+                    path: force-custom/objects
                     transforms:
                         - transform: find_replace
                           options:
                             patterns:
                                 - find: replaceMyURL
                                   inject_org_url: True
-            2:
-                task: deploy
+    deploy_unmanaged:
+        steps:
+            4:
+                task: util_sleep
                 options:
-                    path: force-app/main/default
+                    seconds: 10
                 ui_options:
-                    name: Deploy Metadata for PSS
+                    name: "Wait for Omnistudio components to be available"
+    config_dev:
+        steps:
             3:
                 task: load_dataset
                 options:

@@ -6,9 +6,7 @@ project:
         api_version: '58.0'
     git:
         default_branch: 'main'
-        prefix_feature: 'feature/'
-        prefix_beta: 'beta/'
-        prefix_release: 'release/'
+        repo_url: https://github.com/Industries-SolutionFactory-Connect/Pubsec-Referral-and-Care-Plan
     source_format: sfdx
 
 tasks:
@@ -87,5 +85,5 @@ plans:
             message: "You need BenefitDisbursementPermissionSetLicense PSL to use this feature. Contact your Administrator."            
         steps:
             1:
-                flow: config_dev
+                flow: dev_org
 

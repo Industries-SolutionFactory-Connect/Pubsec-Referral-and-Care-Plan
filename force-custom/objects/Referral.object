@@ -299,7 +299,7 @@
         <searchResultsAdditionalFields>ProviderName</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <webLinks>
+        <webLinks>
         <fullName>Add_Complaint_Participants</fullName>
         <availability>online</availability>
         <displayType>button</displayType>

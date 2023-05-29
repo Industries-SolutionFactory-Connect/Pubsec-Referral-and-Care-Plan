@@ -6,7 +6,7 @@ Namespace: omnistudio
 Job: VDX
 Action: Deploy
 ProjectPath: force-app/main/omnistudio
-TotalTime: 27m 39s
+TotalTime: 28m 24s
 Count:
   Success: {}
   Error: {}

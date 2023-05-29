@@ -1,0 +1,22 @@
+{
+    "DRId_Case": "",
+    "Participants": {
+        "addNewParticipants": {
+            "city": "city",
+            "firstName": "first",
+            "lastName": "last",
+            "selectAndBuildList": {
+                "selectedData": {
+                    "selectedData": [
+                        {
+                            "caseId": "500RO000001X14rYAC",
+                            "id": "003RO000002IUe4YAG",
+                            "role": "Victim",
+                            "status": "Active"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

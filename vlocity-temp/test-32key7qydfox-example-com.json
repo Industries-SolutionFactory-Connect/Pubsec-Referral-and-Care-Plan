@@ -1,0 +1,16 @@
+{
+    "username": "test-32key7qydfox@example.com",
+    "devHubId": "devhubmain-avinash@gs0.org",
+    "id": "00D8B00000024R3UAI",
+    "createdBy": "devhubmain-avinash@gs0.org",
+    "createdDate": "2023-05-18T09:15:40.000+0000",
+    "expirationDate": "2023-05-25",
+    "status": "Active",
+    "orgName": "Pubsec-Referral-and-Care-Plan - Dev Org",
+    "accessToken": "00D8B00000024R3!AQ0AQCn9Nq6qGNkxRxaQYJdk6ZysQ63zqbeqxZZoEc_NcZ2yY.00t2hEmpsWprvA5RcKx0YhCLPJ3jU5CswIPohkuppzrf.8",
+    "instanceUrl": "https://dyno-laguna-7354.scratch.my.salesforce.com",
+    "clientId": "PlatformCLI",
+    "sfdxAuthUrl": "force://PlatformCLI::5Aep861YgtKvTMK38rV2VjP8S0u6BRK61e9p5Ep0Fcrq3tzWc3PsyR.C8oAWpYC0aSctdc7NMB.x8sBBi_xUKNa@dyno-laguna-7354.scratch.my.salesforce.com",
+    "alias": "Pubsec-Referral-and-Care-Plan__dev",
+    "vbtSfdxUsername": "test-32key7qydfox@example.com"
+}

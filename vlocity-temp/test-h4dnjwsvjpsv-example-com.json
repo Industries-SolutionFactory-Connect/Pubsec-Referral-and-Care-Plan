@@ -1,0 +1,16 @@
+{
+    "username": "test-h4dnjwsvjpsv@example.com",
+    "devHubId": "devhubmain-avinash@gs0.org",
+    "id": "00D8B00000023p6UAA",
+    "createdBy": "devhubmain-avinash@gs0.org",
+    "createdDate": "2023-05-29T08:05:47.000+0000",
+    "expirationDate": "2023-06-05",
+    "status": "Active",
+    "orgName": "Pubsec-Referral-and-Care-Plan - Dev Org",
+    "accessToken": "00D8B00000023p6!AR4AQHksOb3pU5MOtObiyptL2sU0jhZfMXL3.B5OJMwrig1m7Do9pncB2vRQkvyKaphd5dw_kOQk0ZSJL7ffCUth6lfc9k4J",
+    "instanceUrl": "https://oatmilk-waterfall-3681.scratch.my.salesforce.com",
+    "clientId": "PlatformCLI",
+    "sfdxAuthUrl": "force://PlatformCLI::5Aep861YgtKvTMK38qGfBUW8gi2w2glXtl62PBaQtrKeYgYLqaSMbEEHR7kU5.PyFSdIgiMV7kzzmFJP28G9bpp@oatmilk-waterfall-3681.scratch.my.salesforce.com",
+    "alias": "Pubsec-Referral-and-Care-Plan__devorg5",
+    "vbtSfdxUsername": "test-h4dnjwsvjpsv@example.com"
+}

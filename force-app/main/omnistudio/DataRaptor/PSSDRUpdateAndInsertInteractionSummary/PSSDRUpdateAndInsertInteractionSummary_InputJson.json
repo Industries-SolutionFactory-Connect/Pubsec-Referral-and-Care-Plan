@@ -1,0 +1,66 @@
+{
+    "DRId_InteractionSummary": "8BVRO00000008m34AA",
+    "DRId_Referral": "a0GRO0000009lNa2AI",
+    "DefaultEmailAddress": "",
+    "HealthAndSafety": null,
+    "InteractionSummaryRecordId": "8BVRO00000008m34AA",
+    "InteractionSummaryValue": "adsfads",
+    "MainReferralRecordId": "a0GRO0000009lNa2AI",
+    "ReferralIntakeDetails": {
+        "AdditionalDetails": false,
+        "AdditionalNotes": {
+            "Comments": "adsfads"
+        },
+        "Assessment": null,
+        "ClientDetails": {
+            "ClientAccountType": "SearchExistingAccounts",
+            "ClientEmailNew": null,
+            "ClientNameNew": null,
+            "ClientPhoneNew": null,
+            "ClientPreferredLanguageNew": null,
+            "FinalClientEmail": null,
+            "FinalClientPreferredLanguage": "English",
+            "SearchClientByName-Block": {
+                "ClientPreferredLanguage": "English",
+                "SearchClientByName": null
+            }
+        },
+        "IsSampleAssessment1Completed": false,
+        "IsSampleAssessment2Completed": false,
+        "IsSampleAssessment3Completed": false,
+        "ReferralDate": "2022-09-28",
+        "ReferralDetails": {
+            "FinalReferralEmail": null,
+            "FinalReferrerName": null,
+            "ReferralAccountType": "SearchExistingAccounts",
+            "ReferrerEmailNew": null,
+            "ReferrerNameNew": null,
+            "ReferrerOrganizationNew": null,
+            "ReferrerPhoneNew": null,
+            "SearchReferrerByName-Block": {
+                "SearchReferrerByName": null
+            }
+        },
+        "ReferralTypeSelfOrSomeone": "false",
+        "ShowSampleAssessment1": false,
+        "ShowSampleAssessment2": false,
+        "ShowSampleAssessment3": false,
+        "Title": "adfs"
+    },
+    "ReferralRecordId": "0fhRO00000000e3YAA",
+    "ReviewAssessments": null,
+    "SampleAssessment1CompletedMessage": null,
+    "SampleAssessment2CompletedMessage": null,
+    "SampleAssessment3": null,
+    "SampleAssessment3CompletedMessage": null,
+    "UploadDocuments": null,
+    "WorkExperience": null,
+    "sInstanceId": "0kTRO000000025A2AQ",
+    "timeStamp": "2022-09-28T08:17:52.438Z",
+    "userCurrencyCode": "USD",
+    "userId": "005RO000000ZwqXYAS",
+    "userName": "cintake1@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

@@ -1,0 +1,27 @@
+{
+    "Participants": {
+        "addNewParticipants": {
+            "city": "city",
+            "firstName": "first",
+            "lastName": "last",
+            "selectAndBuildList": {
+                "selectedIdList": {
+                    "selectedIds": [
+                        {
+                            "caseId": "500RO000001X14rYAC",
+                            "id": "003RO000002IUe4YAG",
+                            "role": "Victim",
+                            "status": "Active"
+                        },
+                        {
+                            "caseId": "500RO000001X14rYAC",
+                            "id": "001RO000003KO2BYAW",
+                            "role": "Victim",
+                            "status": "Active"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

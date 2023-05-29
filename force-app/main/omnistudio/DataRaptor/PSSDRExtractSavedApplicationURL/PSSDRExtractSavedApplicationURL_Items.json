@@ -1,0 +1,92 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIKE",
+        "FilterValue": "parentId",
+        "GlobalKey": "PSSDRExtractSavedApplicationURL1404032404236224",
+        "InputFieldName": "RelatedRecordIdentifier",
+        "InputObjectName": "OmniScriptSavedSession",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRExtractSavedApplicationURL",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRExtractSavedApplicationURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRExtractSavedApplicationURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "parentId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIMIT",
+        "FilterValue": "1",
+        "GlobalKey": "PSSDRExtractSavedApplicationURL2300499986463811",
+        "InputObjectName": "OmniScriptSavedSession",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRExtractSavedApplicationURL",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRExtractSavedApplicationURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRExtractSavedApplicationURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "parentId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "ORDER BY",
+        "FilterValue": "CreatedDate DESC",
+        "GlobalKey": "PSSDRExtractSavedApplicationURL6561612260350709",
+        "InputObjectName": "OmniScriptSavedSession",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRExtractSavedApplicationURL",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRExtractSavedApplicationURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRExtractSavedApplicationURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "parentId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRExtractSavedApplicationURL41724937584728816",
+        "InputFieldName": "parentId:ResumeUrl",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRExtractSavedApplicationURL",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRExtractSavedApplicationURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRExtractSavedApplicationURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "savedOmniscriptUrl",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

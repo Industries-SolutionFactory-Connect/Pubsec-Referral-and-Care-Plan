@@ -1,0 +1,38 @@
+{
+    "Case Details": {
+        "NewCaseDetails": {
+            "Account-Block": {
+                "Account": "PizzaHut License No. 1",
+                "Id": "001RO000002yGl4YAE",
+                "Name": "PizzaHut License No. 1"
+            },
+            "Description": "soe description",
+            "Origin": "Phone",
+            "Priority": "High",
+            "Reason": "Installation",
+            "Status": "New",
+            "Subject": "Some isue"
+        },
+        "NewOrExistingCase": "StartANewCase"
+    },
+    "Participants": {
+        "addNewParticipants": {
+            "city": "city",
+            "firstName": "first",
+            "lastName": "last",
+            "selectAndBuildList": {
+                "selectedIdList": {
+                    "selectedIds": [
+                        {
+                            "caseId": "500RO000001X14rYAC",
+                            "id": "003RO000002IUe4YAG",
+                            "role": "Victim",
+                            "status": "Active"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PublicComplaintID": ""
+}

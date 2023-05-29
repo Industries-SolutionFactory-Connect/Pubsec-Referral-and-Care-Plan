@@ -1,0 +1,10 @@
+[
+    "DataRaptor/PSSDRFetchAssessment",
+    "DataRaptor/PSSDRFetchInteractionSummaryRecord",
+    "DataRaptor/PSSDRFetchReferralValues",
+    "DataRaptor/PSSDRSaveOrUpdateReferral",
+    "DataRaptor/PSSDRUpdateAndInsertInteractionSummary",
+    "IntegrationProcedure/SPCM_AttachFilesToReferral",
+    "IntegrationProcedure/SPCM_SearchClientByName",
+    "IntegrationProcedure/SPCM_SearchReferrerByName"
+]

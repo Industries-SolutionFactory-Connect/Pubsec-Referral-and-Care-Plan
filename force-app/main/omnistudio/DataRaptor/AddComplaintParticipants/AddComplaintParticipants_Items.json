@@ -1,0 +1,98 @@
+[
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "AddComplaintParticipantsCustom1361",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "AddComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "AddComplaintParticipants",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/AddComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "AddComplaintParticipantsCustom6105",
+        "InputFieldName": "addParticipants:selectAndBuildComplaintParticipants:selectedData:selectedData:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "AddComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "AddComplaintParticipants",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/AddComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ParticipantId",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "AddComplaintParticipantsCustom3476",
+        "InputFieldName": "publicComplaintId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "AddComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "AddComplaintParticipants",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/AddComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PublicComplaintId",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "AddComplaintParticipantsCustom7483",
+        "InputFieldName": "addParticipants:selectAndBuildComplaintParticipants:selectedData:selectedData:role",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "AddComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "AddComplaintParticipants",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/AddComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Role",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "AddComplaintParticipantsCustom4557",
+        "InputFieldName": "addParticipants:selectAndBuildComplaintParticipants:selectedData:selectedData:status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "AddComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "AddComplaintParticipants",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/AddComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

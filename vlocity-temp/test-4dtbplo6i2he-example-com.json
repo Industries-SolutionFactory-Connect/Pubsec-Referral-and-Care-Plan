@@ -1,0 +1,16 @@
+{
+    "username": "test-4dtbplo6i2he@example.com",
+    "devHubId": "devhubmain-avinash@gs0.org",
+    "id": "00D7d000008znSJEAY",
+    "createdBy": "devhubmain-avinash@gs0.org",
+    "createdDate": "2023-05-26T10:31:37.000+0000",
+    "expirationDate": "2023-06-02",
+    "status": "Active",
+    "orgName": "Pubsec-Referral-and-Care-Plan - Dev Org",
+    "accessToken": "00D7d000008znSJ!AQcAQKrACMWLLyuAhYUyGVUzMfTmjUinxWVRyYRw2jfaDEc2OyV6GIyrHk5QmQiFURwe0emUxRsvrStXFoA2OAdBnyf1BtiT",
+    "instanceUrl": "https://trailblazer-ocean-9193.scratch.my.salesforce.com",
+    "clientId": "PlatformCLI",
+    "sfdxAuthUrl": "force://PlatformCLI::5Aep861Uuh3BkeE9yz8Kt8ZQcIGT.HSfG3X9n4D3BchaSSLTOQ_.ru_F54DHpgtmFsKvpGOOy1XZhfIOvJKXgV7@trailblazer-ocean-9193.scratch.my.salesforce.com",
+    "alias": "Pubsec-Referral-and-Care-Plan__dev3",
+    "vbtSfdxUsername": "test-4dtbplo6i2he@example.com"
+}

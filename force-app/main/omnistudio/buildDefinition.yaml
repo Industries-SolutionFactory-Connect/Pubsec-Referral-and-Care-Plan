@@ -1,0 +1,5 @@
+projectPath: force-app/main/omnistudio
+queries:
+  - VlocityDataPackType: OmniScript
+    query: Select Id, %vlocity_namespace%__Type__c, %vlocity_namespace%__SubType__c, %vlocity_namespace%__Language__c from %vlocity_namespace%__OmniScript__c where %vlocity_namespace%__IsActive__c = true AND (SubType LIKE 'EditReferral%' OR SubType LIKE 'SubmitReferral%' OR SubType LIKE 'CreateReferralCase%' OR SubType LIKE 'CreateNewCase%' OR SubType LIKE 'AddComplaintParticipants%')
+  

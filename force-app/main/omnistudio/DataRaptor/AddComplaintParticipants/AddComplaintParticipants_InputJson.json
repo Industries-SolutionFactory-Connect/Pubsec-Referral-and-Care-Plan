@@ -1,0 +1,24 @@
+{
+    "addParticipants": {
+        "lastName": "Shakya",
+        "selectAndBuildComplaintParticipants": {
+            "selectedData": {
+                "selectedData": [
+                    {
+                        "id": "001RQ000001nFPuYAM",
+                        "role": "Victim",
+                        "status": "Active"
+                    }
+                ]
+            }
+        }
+    },
+    "publicComplaintId": "",
+    "timeStamp": "2022-05-06T09:35:59.069Z",
+    "userCurrencyCode": "USD",
+    "userId": "005RQ000000HfNuYAK",
+    "userName": "admin238rfpss@sf.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

@@ -1,0 +1,8 @@
+{
+    "Records": {
+        "ReferrerEmail": "Text",
+        "ReferrerId": "Text",
+        "ReferrerName": "Text",
+        "ReferrerPhone": "Text"
+    }
+}

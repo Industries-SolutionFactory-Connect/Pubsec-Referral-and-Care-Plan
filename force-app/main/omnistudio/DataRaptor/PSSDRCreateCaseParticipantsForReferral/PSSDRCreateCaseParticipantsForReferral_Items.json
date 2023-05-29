@@ -1,0 +1,98 @@
+[
+    {
+        "GlobalKey": "PSSDRCreateCaseParticipantsForReferral6049196487131909",
+        "InputFieldName": "DRId_Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRCreateCaseParticipantsForReferral",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRCreateCaseParticipantsForReferral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRCreateCaseParticipantsForReferral",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CaseId",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "PSSDRCreateCaseParticipantsForReferral5779599240855573",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "PSSDRCreateCaseParticipantsForReferral",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRCreateCaseParticipantsForReferral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRCreateCaseParticipantsForReferral",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRCreateCaseParticipantsForReferral7690152875756191",
+        "InputFieldName": "AddedParticipants:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRCreateCaseParticipantsForReferral",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRCreateCaseParticipantsForReferral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRCreateCaseParticipantsForReferral",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ParticipantId",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRCreateCaseParticipantsForReferral6095345523213318",
+        "InputFieldName": "AddedParticipants:Role",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRCreateCaseParticipantsForReferral",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRCreateCaseParticipantsForReferral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRCreateCaseParticipantsForReferral",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Role",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "PSSDRCreateCaseParticipantsForReferral1874133879179125",
+        "InputFieldName": "AddedParticipants:Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "PSSDRCreateCaseParticipantsForReferral",
+        "OmniDataTransformationId": {
+            "Name": "PSSDRCreateCaseParticipantsForReferral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSDRCreateCaseParticipantsForReferral",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "CaseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

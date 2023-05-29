@@ -1,0 +1,193 @@
+Insert AssessmentQuestion:
+  sf_object: AssessmentQuestion
+  table: AssessmentQuestion
+  fields:
+  - QuestionCategory
+  - DataType
+  - DeveloperName
+  - FormulaResponseDataType
+  - Name
+  lookups:
+    RelatedQuestionId:
+      table: AssessmentQuestion
+      key_field: RelatedQuestionId
+      after: Insert AssessmentQuestion
+Insert CarePlanTemplate:
+  sf_object: CarePlanTemplate
+  table: CarePlanTemplate
+  fields:
+  - Description
+  - Name
+  - Status
+Insert GoalDefinition:
+  sf_object: GoalDefinition
+  table: GoalDefinition
+  fields:
+  - Category
+  - Description
+  - Name
+  - Status
+  - Type
+  - UsageType
+Insert UnitOfMeasure:
+  sf_object: UnitOfMeasure
+  table: UnitOfMeasure
+  fields:
+  - Name
+  - Type
+  - UnitCode
+Insert BenefitType:
+  sf_object: BenefitType
+  table: BenefitType
+  fields:
+  - Name
+  - Category
+  - Description
+  - ProcessType
+  lookups:
+    UnitofMeasureId:
+      table: UnitOfMeasure
+      key_field: UnitofMeasureId
+Insert Account:
+  sf_object: Account
+  table: Account
+  fields:
+  - Name
+  - BillingState
+  - Phone
+  - Type
+Insert Contact:
+  sf_object: Contact
+  table: Contact
+  fields:
+  - AssistantName
+  - AssistantPhone
+  - Birthdate
+  - Department
+  - Description
+  - Email
+  - EmailBouncedDate
+  - EmailBouncedReason
+  - Fax
+  - FirstName
+  - HomePhone
+  - Jigsaw
+  - LastName
+  - LeadSource
+  - MailingCity
+  - MailingCountry
+  - MailingGeocodeAccuracy
+  - MailingLatitude
+  - MailingLongitude
+  - MailingPostalCode
+  - MailingState
+  - MailingStreet
+  - MobilePhone
+  - OtherCity
+  - OtherCountry
+  - OtherGeocodeAccuracy
+  - OtherLatitude
+  - OtherLongitude
+  - OtherPhone
+  - OtherPostalCode
+  - OtherState
+  - OtherStreet
+  - Phone
+  - Salutation
+  - Title
+Insert Case:
+  sf_object: Case
+  table: Case
+  fields:
+  - Comments
+  - Description
+  - IsEscalated
+  - Language
+  - Origin
+  - Priority
+  - Reason
+  - Status
+  - Subject
+  - SuppliedCompany
+  - SuppliedEmail
+  - SuppliedName
+  - SuppliedPhone
+  - Type
+  - wkdw__TicketCategory__c
+  - RecordTypeId
+  lookups:
+    AccountId:
+      table: Account
+      key_field: AccountId
+    ContactId:
+      table: Contact
+      key_field: ContactId
+    ParentId:
+      table: Case
+      key_field: ParentId
+      after: Insert Case
+Insert Program:
+  sf_object: Program
+  table: Program
+  fields:
+  - Name
+  - StartDate
+Insert Benefit:
+  sf_object: Benefit
+  table: Benefit
+  fields:
+  - IsActive
+  - Name
+  - BenefitStatus
+  - Description
+  - EndDateTime
+  - EnrollmentCount
+  - MaxBenefitAmount
+  - MinBenefitAmount
+  - StartDateTime
+  lookups:
+    BenefitTypeId:
+      table: BenefitType
+      key_field: BenefitTypeId
+    GoalDefinitionId:
+      table: GoalDefinition
+      key_field: GoalDefinitionId
+    UnitId:
+      table: UnitOfMeasure
+      key_field: UnitId
+    ProgramId:
+      table: Program
+      key_field: ProgramId
+Insert CaseParticipant:
+  sf_object: CaseParticipant
+  table: CaseParticipant
+  fields:
+  - Role
+  - Status
+  lookups:
+    CaseId:
+      table: Case
+      key_field: CaseId
+    ParticipantId:
+      table: Account
+      key_field: ParticipantId
+Insert CarePlan:
+  sf_object: CarePlan
+  table: CarePlan
+  fields:
+  - Description
+  - EndDate
+  - Name
+  - StartDate
+  - Status
+  lookups:
+    CarePlanTemplateId:
+      table: CarePlanTemplate
+      key_field: CarePlanTemplateId
+    CaseId:
+      table: Case
+      key_field: CaseId
+    ParticipantId:
+      table: Account
+      key_field: ParticipantId
+

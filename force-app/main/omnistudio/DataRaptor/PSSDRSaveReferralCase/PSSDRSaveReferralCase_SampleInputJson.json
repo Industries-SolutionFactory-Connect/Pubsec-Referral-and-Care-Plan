@@ -1,0 +1,22 @@
+{
+    "Case Details": {
+        "NewCaseDetails": {
+            "Subject": "Referral"
+        }
+    },
+    "ContextId": "a0GRO0000009lEx2AI",
+    "FetchReferralDetails": {
+        "Category": "CAT1",
+        "ReferralType": "Ref1",
+        "Status": "In Review",
+        "Subject": "Referral"
+    },
+    "ReferralID": "a0GRO0000009lEx2AI",
+    "timeStamp": "2022-09-22T09:38:11.800Z",
+    "userCurrencyCode": "USD",
+    "userId": "005RO000000ZwqXYAS",
+    "userName": "cintake1@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

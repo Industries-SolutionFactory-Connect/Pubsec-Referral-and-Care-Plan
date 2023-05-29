@@ -1,0 +1,84 @@
+{
+    "HealthAndSafety": null,
+    "MainReferralRecordId": "",
+    "ReferralIntakeDetails": {
+        "AdditionalDetails": true,
+        "AdditionalNotes": {
+            "Comments": "adfsdfsd"
+        },
+        "Assessment": [
+            {
+                "AssessmentType": "Education"
+            },
+            {
+                "AssessmentType": "WorkExperience"
+            }
+        ],
+        "ClientDetails": {
+            "ClientAccountType": "EnterNewDetails",
+            "FinalClientEmail": "aditya.singh@gmail.com",
+            "FinalClientPreferredLanguage": null,
+            "NewClientEmail": "aditya.singh@gmail.com",
+            "NewClientName": "clientName",
+            "NewClientPhone": "1231231231",
+            "NewClientPreferredLanguageNew": null,
+            "SearchClient-Block": null
+        },
+        "Description": "description",
+        "IsSampleAssessment1Completed": false,
+        "IsSampleAssessment2Completed": false,
+        "IsSampleAssessment3Completed": false,
+        "ReferralCategory": "CAT1",
+        "ReferralDate": "2022-09-26",
+        "ReferralDetails": {
+            "FinalReferralEmail": null,
+            "FinalReferrerName": "Acme",
+            "NewReferrerEmail": null,
+            "NewReferrerName": null,
+            "NewReferrerOrg": null,
+            "NewReferrerPhone": null,
+            "ReferralAccountType": "SearchExistingAccounts",
+            "SearchReferrer-Block": {
+                "ReferrerId": "001RO000003ZrZTYA0",
+                "ReferrerName": "Acme",
+                "SearchReferrer": "Acme"
+            }
+        },
+        "ReferralPriority": "p1",
+        "ReferralSource": "Email",
+        "ReferralStatus": "In Review",
+        "ReferralType": "Ref1",
+        "ReferralTypeSelfOrSomeone": "true",
+        "ResultType": "RT1",
+        "ShowSampleAssessment1": false,
+        "ShowSampleAssessment2": true,
+        "ShowSampleAssessment3": true,
+        "Title": "title"
+    },
+    "ReferralRecordId": "",
+    "ReviewAssessments": {
+    },
+    "SampleAssessment1CompletedMessage": null,
+    "SampleAssessment2CompletedMessage": null,
+    "SampleAssessment3": {
+    },
+    "SampleAssessment3CompletedMessage": null,
+    "UploadDocuments": {
+        "AdditionalDocuments": {
+            "DocumentDescription": "addtitional doc"
+        },
+        "AttachAddressProof": "IdentityProof",
+        "AttachPhotoId": "Passport",
+        "EmailAddress": null
+    },
+    "WorkExperience": {
+    },
+    "sInstanceId": "0kTRO000000023T2AQ",
+    "timeStamp": "2022-09-26T13:55:21.548Z",
+    "userCurrencyCode": "USD",
+    "userId": "005RO000000ZwqXYAS",
+    "userName": "cintake1@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

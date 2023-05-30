@@ -1,0 +1,82 @@
+{
+    "product": {
+        "title": {
+            "message": "Referral and Care Plan Guided Setup",
+            "description": "name of product"
+        },
+        "short_description": {
+            "message": "Referral and Care plans setups",
+            "description": "tagline of product"
+        },
+        "description": {
+            "message": "Reference Configuration for Referrals and Care Plans",
+            "description": "shown on product detail page (markdown)"
+        },
+        "error_message": {
+            "message": "Kindly check the org which you are using to test this product if it has Public Sector licences/ psl's and Omnistudio package.",
+            "description": "shown after failed installation (markdown)"
+        }
+    },
+    "plan:install": {
+        "title": {
+            "message": "Referral and Care Plan Guided Setup",
+            "description": "title of installation plan"
+        },
+        "preflight_message": {
+            "message": "This will showcase Referral and Care Plan Guided Setup.",
+            "description": "shown before user starts installation (markdown)"
+        },
+        "post_install_message": {
+            "message": "Thanks for installing Pubsec Sector Referral and Care Plan Guided Setup.",
+            "description": "shown after successful installation (markdown)"
+        },
+        "error_message": {
+            "message": "To get help with this error, go to [help.salesforce.com](https://help.salesforce.com/),find the Support & Services area and log a technical support ticket with Salesforce. Include \u201cPMM\u201d in the subject line and include in your comment the installation link shown here.",
+            "description": "shown after failed installation (markdown)"
+        }
+    },
+    "checks": {
+        "You need CarePlansPermissionSetLicense PSL to use this feature. Contact your Administrator.": {
+            "message": "You need CarePlansPermissionSetLicense PSL to use this feature. Contact your Administrator.",
+            "description": "shown if validation fails"
+        },
+        "You need BenefitDisbursementPermissionSetLicense PSL to use this feature. Contact your Administrator.": {
+            "message": "You need BenefitDisbursementPermissionSetLicense PSL to use this feature. Contact your Administrator.",
+            "description": "shown if validation fails"
+        }
+    },
+    "steps": {
+        "deploy": {
+            "message": "deploy",
+            "description": "title of installation step"
+        },
+        "dx_convert_from": {
+            "message": "dx_convert_from",
+            "description": "title of installation step"
+        },
+        "unschedule_apex": {
+            "message": "unschedule_apex",
+            "description": "title of installation step"
+        },
+        "update_package_xml": {
+            "message": "update_package_xml",
+            "description": "title of installation step"
+        },
+        "Wait for Omnistudio components to be available": {
+            "message": "Wait for Omnistudio components to be available",
+            "description": "title of installation step"
+        },
+        "Update Admin Profile": {
+            "message": "Update Admin Profile",
+            "description": "title of installation step"
+        },
+        "Load sample data for PSS cloud": {
+            "message": "Load sample data for PSS cloud",
+            "description": "title of installation step"
+        },
+        "Deploy OmniStudio components": {
+            "message": "Deploy OmniStudio components",
+            "description": "title of installation step"
+        }
+    }
+}

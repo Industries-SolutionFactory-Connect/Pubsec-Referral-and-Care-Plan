@@ -54,13 +54,16 @@ flows:
                     sql_path: datasets/default/default.dataset.sql
                 ui_options:
                     name: "Load sample data for PSS cloud"
+
             90:
                 task: vlocity_pack_deploy
                 options:
                     job_file: force-app/main/omnistudio/buildDefinition.yaml
                 ui_options:
                     name: Deploy OmniStudio components
-            
+                ignore_failures: True
+
+
 plans:
     install:
         slug: install

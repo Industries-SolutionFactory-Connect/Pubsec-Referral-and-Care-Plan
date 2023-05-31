@@ -61,7 +61,7 @@ flows:
                     job_file: force-app/main/omnistudio/buildDefinition.yaml
                 ui_options:
                     name: Deploy OmniStudio components
-                # ignore_failure: True
+                ignore_failure: True
 
 
 plans:

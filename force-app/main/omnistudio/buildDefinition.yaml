@@ -1,6 +1,6 @@
-defaultMinToWaitForLWCOmniScript: 30
-defaultMinToWaitForLWCClassicCards: 30
-defaultMinToWaitForLWCFlexCards: 30
+defaultMinToWaitForLWCOmniScript: 90
+defaultMinToWaitForLWCClassicCards: 90
+defaultMinToWaitForLWCFlexCards: 90
 projectPath: force-app/main/omnistudio
 queries:
   - VlocityDataPackType: OmniScript

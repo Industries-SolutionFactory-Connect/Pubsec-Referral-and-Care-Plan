@@ -54,7 +54,12 @@ flows:
                     sql_path: datasets/default/default.dataset.sql
                 ui_options:
                     name: "Load sample data for PSS cloud"
-
+            89:
+                task: command
+                options:
+                    command: 'echo "npmAuthKey: $OMNIOUT_TOKEN >> force-app/main/omnistudio/buildDefinition.yaml'
+                ui_options:
+                    name: Configure Vlocity Build Tool
             90:
                 task: vlocity_pack_deploy
                 options:

@@ -57,7 +57,7 @@ flows:
             89:
                 task: command
                 options:
-                    command: 'echo "npmAuthKey: $OMNIOUT_TOKEN" >> force-app/main/omnistudio/buildDefinition.yaml'
+                    command: 'echo "npmAuthKey: $OMNIOUT_TOKEN\nuseSfdxCli: true" >> force-app/main/omnistudio/buildDefinition.yaml'
                 ui_options:
                     name: Configure Vlocity Build Tool
             90:

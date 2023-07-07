@@ -47,13 +47,13 @@ flows:
                     name: "Wait for Omnistudio components to be available"
     config_dev:
         steps:
-            3:
-                task: load_dataset
-                options:
-                    mapping: datasets/default/default.mapping.yml
-                    sql_path: datasets/default/default.dataset.sql
-                ui_options:
-                    name: "Load sample data for PSS cloud"
+            # 3:
+            #     task: load_dataset
+            #     options:
+            #         mapping: datasets/default/default.mapping.yml
+            #         sql_path: datasets/default/default.dataset.sql
+            #     ui_options:
+            #         name: "Load sample data for PSS cloud"
             89:
                 task: command
                 options:

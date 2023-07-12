@@ -24,6 +24,15 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+    
+    omniscript_align:
+        description: Run the LWC Chiro and export import of OmniScript and OmniUiCard metadata to force re-compile of std objects
+        class_path: qbrix.tools.utils.qbrix_chiro.OmniscriptAlign
+        options:
+            excludeomniscripts:
+            excludeomniuicards:
+            excludelwcs:
+
 flows:
     dependencies:
         steps:
@@ -59,10 +68,14 @@ flows:
                 task: vlocity_pack_deploy
                 options:
                     job_file: force-app/main/omnistudio/buildDefinition.yaml
+                    extra: -ignoreLWCActivationOS true
                 ui_options:
                     name: Deploy OmniStudio components
                 ignore_failure: True
-
+            91:
+                task: omniscript_align
+                ui_options: 
+                    name: Recompile Omnistudio LWC Components
 
 plans:
     install:
